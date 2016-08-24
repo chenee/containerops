@@ -25,6 +25,7 @@ MAINTAINER Ringtail  <zhongwei.lzw@alibaba-inc.com>
 #RUN /usr/sbin/sshd -D &
 
 ADD ./ /workspace
+ADD ../chapter1 /workspace/chapter1
 
 EXPOSE 3000
 EXPOSE 22
